@@ -12,6 +12,7 @@ function getUrlVars() {
 function onPageLoad(){
 	var urlJson = parseURL(window.location.href);
 	var urlSocket = window.location.protocol + urlJson.host;
+	console.log(urlSocket);
 	sock = io(urlSocket);
 	sock.on('inScore',function(arg){
 		onRespReadXML(arg);
