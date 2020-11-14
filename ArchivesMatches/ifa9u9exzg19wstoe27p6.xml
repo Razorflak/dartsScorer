@@ -1,0 +1,90 @@
+{
+   "arrayTeams": [
+      {
+         "isActivTeam": false,
+         "typeTeam": "SIMPLE",
+         "players": [
+            {
+               "nom": "R",
+               "prenom": "JULIEN",
+               "id": "33lk43qzrg8qc6428ufld",
+               "displayName": "JULIEN R.",
+               "idTeam": "n95744l8e7fna9cprr7069"
+            }
+         ],
+         "id": "n95744l8e7fna9cprr7069",
+         "displayName": "JULIEN R. ",
+         "score": 56,
+         "leg": 0,
+         "set": 0
+      },
+      {
+         "isActivTeam": false,
+         "typeTeam": "SIMPLE",
+         "players": [
+            {
+               "nom": "Krjrj",
+               "prenom": "Udjej",
+               "id": "wi2te7it3f3iite8ezi6y",
+               "displayName": "Udjej K.",
+               "idTeam": "9rjyxjvk6pr703kgp5ehvd"
+            }
+         ],
+         "id": "9rjyxjvk6pr703kgp5ehvd",
+         "displayName": "Udjej K. ",
+         "score": 225,
+         "leg": 0,
+         "set": 0
+      }
+   ],
+   "indexActivTeam": 1,
+   "id": "ifa9u9exzg19wstoe27p6",
+   "setNeed": 1,
+   "legNeed": "1",
+   "competition": "Phase de poule",
+   "sets": [
+      {
+         "id": "n3y41lscjuldeuvh1xrf"
+      }
+   ],
+   "stadeCompetition": "Simple Hommes",
+   "legs": [
+      {
+         "setId": "n3y41lscjuldeuvh1xrf",
+         "id": "m0y50fby1k8xteum09dy2",
+         "startTeamId": "n95744l8e7fna9cprr7069"
+      }
+   ],
+   "throws": [
+      {
+         "teamId": "n95744l8e7fna9cprr7069",
+         "score": "85",
+         "darts": 3,
+         "legId": "m0y50fby1k8xteum09dy2"
+      },
+      {
+         "teamId": "9rjyxjvk6pr703kgp5ehvd",
+         "score": "96",
+         "darts": 3,
+         "legId": "m0y50fby1k8xteum09dy2"
+      },
+      {
+         "teamId": "n95744l8e7fna9cprr7069",
+         "score": "180",
+         "darts": 3,
+         "legId": "m0y50fby1k8xteum09dy2"
+      },
+      {
+         "teamId": "9rjyxjvk6pr703kgp5ehvd",
+         "score": "180",
+         "darts": 3,
+         "legId": "m0y50fby1k8xteum09dy2"
+      },
+      {
+         "teamId": "n95744l8e7fna9cprr7069",
+         "score": "180",
+         "darts": 3,
+         "legId": "m0y50fby1k8xteum09dy2"
+      }
+   ]
+}

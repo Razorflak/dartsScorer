@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<link rel="stylesheet" type="text/css" href="CreateGame.css">
+	
+	<script src="jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="CreateGame.js"></script>
+	<script type="text/javascript" src="./js/modele.js"></script>
+	<script type="text/javascript" src="./js/controleur.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!--BootStrap-->
+	<link rel="stylesheet" type="text/css" href="./common/bootStrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./common/bootStrap/css/bootstrap.min.css">
+	<script type="text/javascript" src="./common/bootStrap/js/bootstrap.bundle.js"></script>
+	<script type="text/javascript" src="./common/bootStrap/js/bootstrap.bundle.min.js"></script>
+
+	<!--BootStrap-->
+
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+</head>
+<body class=".container-lg" width="100%" height="100%" onload="onPageLoad()">
+	<div class="container-fluid">
+		<label class="labelInputInfo" id="labelCompetition" for="inputCompetion">Compétition</label>
+		<select class="form-control form-control-lg" id="inputCompetion" type=text onchange="onTournoiChange()">
+			<option>Simple Hommes</option>
+			<option>Simple Femmes</option>
+			<option>Simple Juniors</option>	
+			<option>Double mixte</option>
+			<option>Double féminin</option>
+		</select>	
+	</div>
+	<div class="container-fluid">
+		<label class="labelInputInfo" for="nbrManche">Stade de la compétition</label>
+		<select class="form-control form-control-lg" id="inputStade" type=text>
+		<option>Phase de poule</option>
+		<option>32e de finale</option>
+		<option>16e de finale</option>
+		<option>8e de finale</option>	
+		<option>1/4 de finale</option>
+		<option>1/2 de finale</option>
+		<option>Finale</option>
+	</select>		
+	</div>
+	<div class="container-fluid">
+		<label class="labelInputInfo" id="labelNbrManche" for="nbrManche">Nombre de manche(s)</label>
+		<input class="form-control form-control-lg" type="number" id="nbrManche" min="1" value="1"/>
+	</div>
+	
+	<div id="player1Team1" class="container-fluid">
+		<label id="labelEquipe1" class="labelInputInfo" for="basic-url">Equipe 1</label>
+		<div class="row no-gutters">
+			<div class="col align-self-start">
+				<div class="input-group mb-3">
+					
+					<input id="player1Team1Prenom" type="text" class="form-control form-control-lg" placeholder="Prénom" aria-label="Prénom" aria-describedby="basic-addon1">
+				</div>
+			</div>
+			<div class="col">
+				<div class="input-group mb-3">
+					<input id="player1Team1Nom" type="text" class="form-control form-control-lg" placeholder="Nom" aria-label="Nom" aria-describedby="basic-addon1">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="player2Team1" class="container-fluid player2">
+		<div class="row no-gutters">
+			<div class="col">
+				<div class="input-group mb-3">
+					<input id="player2Team1Prenom" type="text" class="form-control form-control-lg" placeholder="Prénom" aria-label="Prénom" aria-describedby="basic-addon1">
+				</div>
+			</div>
+			<div class="col">
+				<div class="input-group mb-3">
+					<input id="player2Team1Nom" type="text" class="form-control form-control-lg" placeholder="Nom" aria-label="Nom" aria-describedby="basic-addon1">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="player1Team2" class="container-fluid">
+		<label id="labelEquipe2" class="labelInputInfo" for="basic-url">Equipe 2</label>
+		<div class="row no-gutters">
+			<div class="col">
+				<div class="input-group mb-3">
+					
+					<input id="player1Team2Prenom" type="text" class="form-control form-control-lg" placeholder="Prénom" aria-label="Prénom" aria-describedby="basic-addon1">
+				</div>
+			</div>
+			<div class="col">
+				<div class="input-group mb-3">
+					<input id="player1Team2Nom" type="text" class="form-control form-control-lg" placeholder="Nom" aria-label="Nom" aria-describedby="basic-addon1">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="player2Team2" class="container-fluid player2">
+		<div class="row no-gutters">
+			<div class="col">
+				<div class="input-group mb-3">
+					<input id="player2Team2Prenom" type="text" class="form-control form-control-lg" placeholder="Prénom" aria-label="Prénom" aria-describedby="basic-addon1">
+					
+				</div>
+			</div>
+			<div class="col no-gutters">
+				<div class="input-group mb-3">
+					<input id="player2Team2Nom" type="text" class="form-control form-control-lg" placeholder="Nom" aria-label="Nom" aria-describedby="basic-addon1">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div  class="container-fluid">
+		<div class="row">
+			<div class="col">
+				<div class="input-group mb-3">
+					<button type="button" id="bntValid" class="btn btn-success mb-1 btn-block" onclick="onCreateGame()">GO !</button>
+				</div>
+			</div>
+			<div class="col">
+				<div class="input-group mb-3">
+					<button type="button" id="bntValid" class="btn btn-danger ml-auto btn-block" onclick="OnResetFields()">Reset</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="divCurrentGames">
+
+	</div>
+
+</body>
+</html>

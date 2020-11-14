@@ -1,0 +1,110 @@
+{
+   "arrayTeams": [
+      {
+         "isActivTeam": false,
+         "typeTeam": "SIMPLE",
+         "players": [
+            {
+               "nom": "Perret",
+               "prenom": "Christelle",
+               "id": "31a4ot9jdf9r4tuvgv2xh",
+               "displayName": "Christelle P.",
+               "idTeam": "1avw5rmchmm9oonaebglnf"
+            }
+         ],
+         "id": "1avw5rmchmm9oonaebglnf",
+         "displayName": "Christelle P. ",
+         "score": 0,
+         "leg": 0,
+         "set": 1
+      },
+      {
+         "isActivTeam": false,
+         "typeTeam": "SIMPLE",
+         "players": [
+            {
+               "nom": "Tanguy",
+               "prenom": "Julien ",
+               "id": "fpg49yyy46t60mcceyrai4",
+               "displayName": "Julien  T.",
+               "idTeam": "aocnf79o6zfdvvnz27rgfh"
+            }
+         ],
+         "id": "aocnf79o6zfdvvnz27rgfh",
+         "displayName": "Julien  T. ",
+         "score": 451,
+         "leg": 0,
+         "set": 0
+      }
+   ],
+   "indexActivTeam": 0,
+   "id": "f95cqkus1tq9th435ksb2",
+   "setNeed": 1,
+   "legNeed": "1",
+   "competition": "Phase de poule",
+   "sets": [
+      {
+         "id": "qb8lpxnrww4pzp9x80siu",
+         "winnerTeam": "1avw5rmchmm9oonaebglnf"
+      }
+   ],
+   "stadeCompetition": "Simple Hommes",
+   "legs": [
+      {
+         "setId": "qb8lpxnrww4pzp9x80siu",
+         "id": "3j7v27vxydil6z0ztt6x0g",
+         "startTeamId": "1avw5rmchmm9oonaebglnf",
+         "winnerTeam": "1avw5rmchmm9oonaebglnf"
+      }
+   ],
+   "throws": [
+      {
+         "teamId": "1avw5rmchmm9oonaebglnf",
+         "score": "180",
+         "darts": 3,
+         "legId": "3j7v27vxydil6z0ztt6x0g"
+      },
+      {
+         "teamId": "aocnf79o6zfdvvnz27rgfh",
+         "score": "25",
+         "darts": 3,
+         "legId": "3j7v27vxydil6z0ztt6x0g"
+      },
+      {
+         "teamId": "1avw5rmchmm9oonaebglnf",
+         "score": "180",
+         "darts": 3,
+         "legId": "3j7v27vxydil6z0ztt6x0g"
+      },
+      {
+         "teamId": "aocnf79o6zfdvvnz27rgfh",
+         "score": "25",
+         "darts": 3,
+         "legId": "3j7v27vxydil6z0ztt6x0g"
+      },
+      {
+         "teamId": "1avw5rmchmm9oonaebglnf",
+         "score": "141",
+         "darts": 1,
+         "legId": "3j7v27vxydil6z0ztt6x0g"
+      }
+   ],
+   "winnerTeam": {
+      "isActivTeam": false,
+      "typeTeam": "SIMPLE",
+      "players": [
+         {
+            "nom": "Perret",
+            "prenom": "Christelle",
+            "id": "31a4ot9jdf9r4tuvgv2xh",
+            "displayName": "Christelle P.",
+            "idTeam": "1avw5rmchmm9oonaebglnf"
+         }
+      ],
+      "id": "1avw5rmchmm9oonaebglnf",
+      "displayName": "Christelle P. ",
+      "score": 0,
+      "leg": 0,
+      "set": 1
+   }
+}

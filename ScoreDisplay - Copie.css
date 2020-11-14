@@ -1,0 +1,92 @@
+body,html{
+	position: absolute;
+	width: 1024px;
+	height: 345px;
+	background: url("./common/img/FOND.png") no-repeat;
+	color: white;
+}
+
+#divInfoJoueur->span {
+  min-height: 75px;
+  display: inline-flex;
+  align-items: center;
+}
+
+#divInfoJoueur{
+	margin: 0;
+	position: absolute;
+	top: 48%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.rowh{
+	vertical-align: middle;
+	min-height: 75px;
+}
+
+.infoGame{
+	font-size: 60px;
+	display:inline-block; 
+	vertical-align:middle
+}
+
+.name{
+	width: 630px;
+}
+
+.leg{
+	color: #001889;
+	width: 120px;
+	font-weight: bolder;
+}
+
+.score{
+	width: 95px;
+	text-align: right;
+}
+
+.activ{
+	 background: url(./common/img/fleche.svg) no-repeat center center;
+	 background-size: 80% 80%;
+}
+
+.inactiv{
+	background: none;
+	background-size: 80% 80%;
+}
+
+
+.starterLeg{
+	background: url(./common/img/point.svg) no-repeat center center;
+	background-size: 25% 25%;
+}
+
+
+#stadeCompetition{
+	color: #d9d9d9;
+	position: absolute;
+	font-size: 40px;
+	top: 10px;
+	left: 10px;
+	font-family: "RobotoBlack";
+}
+
+#nbrMancheGagnante{
+	color: #d9d9d9;
+	position: absolute;
+	font-size: 40px;
+	bottom: 10px;
+	left: 10px;
+	font-family: "RobotoBlack";
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url('./common/Roboto-Light.ttf');
+}
+
+@font-face {
+	font-family: "RobotoBlack";
+	src: url('./common/Roboto-Regular.ttf');
+}

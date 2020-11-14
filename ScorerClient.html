@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	
+	<link rel="stylesheet" type="text/css" href="ScorerClient.css">
+	<script src="jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="ScorerClient.js"></script>
+	<script type="text/javascript" src="./js/modele.js"></script>
+	<script type="text/javascript" src="./js/controleur.js"></script>
+	<!--BootStrap-->
+	<link rel="stylesheet" type="text/css" href="./common/bootStrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./common/bootStrap/css/bootstrap.min.css">
+	<script type="text/javascript" src="./common/bootStrap/js/bootstrap.bundle.js"></script>
+	<script type="text/javascript" src="./common/bootStrap/js/bootstrap.bundle.min.js"></script>
+	<!--BootStrap-->
+	
+  <meta charset="utf-8">
+  <meta name="viewport" content="user-scalable=no">
+  <title>DartsScoring</title>
+</head>
+<body width="100%" height="100%" onload="onPageLoad()">
+	<div id="mainContainer" width="100%" height="100%" background-color="green">
+		<div id="infoGame">
+			<div id="p1Div" class="playerDiv">
+				<p class="name" id="p1Name">Name 1</p>
+				<p class="score" id="p1Score">501</p>
+				<div class="infoSecondaire container-fluid ml-3">
+					<p>Set:&nbsp;<span id="p1Set">0</span></p>
+					<p>Manche:&nbsp;<span id="p1Manche">0</span></p>	
+					<p>Score dernier lancé:&nbsp;<span id="p1LastThrow">0</span></p>
+					<p>Nbr darts:&nbsp<span id="p1NbrDarts">0</span></p>
+				</div>
+				<p>&nbsp;</p>
+				<button id="btnStartP1" class="btnStartManche" onclick="onPlayerStart(1)">Start</button>
+				
+			</div>
+			<div id="p2Div" class="playerDiv">
+				<p class="name" id="p2Name">Name 1</p>
+				<p class="score" id="p2Score">501</p>
+				<div class="infoSecondaire">
+					<p>Set:&nbsp;<span id="p2Set">0</span></p>
+					<p>Manche:&nbsp;<span id="p2Manche">0</span></p>
+					<p>Score dernier lancé:&nbsp;<span id="p2LastThrow">0</span></p>
+					<p>Nbr darts:&nbsp<span id="p2NbrDarts">0</span></p>
+				</div>
+				<p>&nbsp;</p>
+				<button id="btnStartP2" class="btnStartManche" onclick="onPlayerStart(2)">Start</button>
+			</div>
+		</div>
+		<div id="scoreContaineur">
+			<div id="divScore">
+				<div id="currentScore">&nbsp;</div>
+				<button id="bntUndo" onclick="onUndo()">UNDO</button>
+			</div>
+			<div id="paveNum">
+				<div class="colNumber">
+					<button class="numberPav" onclick="onAddScore('7')">7</button>
+					<button class="numberPav" onclick="onAddScore('4')">4</button>
+					<button class="numberPav" onclick="onAddScore('1')">1</button>
+					<button id="btnClr" class="numberPav" onclick="onClr()">C</button>
+				</div>
+				<div class="colNumber">
+					<button class="numberPav" onclick="onAddScore('8')">8</button>
+					<button class="numberPav" onclick="onAddScore('5')">5</button>
+					<button class="numberPav" onclick="onAddScore('2')">2</button>
+					<button class="numberPav" onclick="onAddScore('0')">0</button>
+				</div>
+				<div class="colNumber">
+					<button class="numberPav" onclick="onAddScore('9')">9</button>
+					<button class="numberPav" onclick="onAddScore('6')">6</button>
+					<button class="numberPav" onclick="onAddScore('3')">3</button>
+					<button id="btnValid" class="numberPav" onclick="onValider()">V</button>
+				</div>
+			</div>
+		</div>
+		<!--Panneau saise nbr darts pour la fin de partie-->
+		<div id="nbrDartsContaineur" class="container-fluid ">
+			
+			<div  class="container-fluid" style="margin: auto;">
+				<div class="row align-self-center">
+					<div class="col align-self-center">
+						<span style="font-size:4em;">Nombre de fléchettes</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<div class="input-group mb-3">
+							<button type="button" class="btn btn-info mb-auto btn-block btn-lg" style="font-size:7em;" onclick="onValiderNbrDarts(1)">1</button>
+						</div>
+					</div>
+					<div class="col">
+						<div class="input-group mb-3">
+							<button type="button" class="btn btn-info ml-auto btn-block btn-lg" style="font-size:7em;" onclick="onValiderNbrDarts(2)">2</button>
+						</div>
+					</div>
+					<div class="col">
+						<div class="input-group mb-3">
+							<button type="button" class="btn btn-info ml-auto btn-block btn-lg" style="font-size:7em;" onclick="onValiderNbrDarts(3)">3</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>

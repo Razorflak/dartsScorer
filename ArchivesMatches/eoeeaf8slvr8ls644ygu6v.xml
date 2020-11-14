@@ -1,0 +1,200 @@
+{
+   "arrayTeams": [
+      {
+         "isActivTeam": false,
+         "typeTeam": "SIMPLE",
+         "players": [
+            {
+               "nom": "TT",
+               "prenom": "Julien",
+               "id": "h7k2okq9qxks93vhn04fdl",
+               "displayName": "Julien T.",
+               "idTeam": "lxsdev9dt4qukbt9wcsw2"
+            }
+         ],
+         "id": "lxsdev9dt4qukbt9wcsw2",
+         "displayName": "Julien T. ",
+         "score": 0,
+         "leg": 0,
+         "set": 1
+      },
+      {
+         "isActivTeam": false,
+         "typeTeam": "SIMPLE",
+         "players": [
+            {
+               "nom": "PP",
+               "prenom": "Chris",
+               "id": "t34037qul95trige34npl",
+               "displayName": "Chris P.",
+               "idTeam": "r779twl0od91uerk5u6jk"
+            }
+         ],
+         "id": "r779twl0od91uerk5u6jk",
+         "displayName": "Chris P. ",
+         "score": 303,
+         "leg": 0,
+         "set": 0
+      }
+   ],
+   "indexActivTeam": 0,
+   "id": "eoeeaf8slvr8ls644ygu6v",
+   "setNeed": 1,
+   "legNeed": "2",
+   "competition": "Phase de poule",
+   "sets": [
+      {
+         "id": "d4013x8172vmq3gzd7zvjg",
+         "winnerTeam": "lxsdev9dt4qukbt9wcsw2"
+      }
+   ],
+   "stadeCompetition": "Simple Femmes",
+   "legs": [
+      {
+         "setId": "d4013x8172vmq3gzd7zvjg",
+         "id": "cfh2m4fp01s72iyt3k85wr",
+         "startTeamId": "lxsdev9dt4qukbt9wcsw2",
+         "winnerTeam": "lxsdev9dt4qukbt9wcsw2"
+      },
+      {
+         "winnerTeam": "r779twl0od91uerk5u6jk",
+         "setId": "d4013x8172vmq3gzd7zvjg",
+         "id": "yxyv1em133d1vus1gzi3rd",
+         "startTeamId": "r779twl0od91uerk5u6jk"
+      },
+      {
+         "winnerTeam": "lxsdev9dt4qukbt9wcsw2",
+         "setId": "d4013x8172vmq3gzd7zvjg",
+         "id": "2eicmqyu98el98phg4ci9d",
+         "startTeamId": "lxsdev9dt4qukbt9wcsw2"
+      }
+   ],
+   "throws": [
+      {
+         "teamId": "lxsdev9dt4qukbt9wcsw2",
+         "score": "180",
+         "darts": 3,
+         "legId": "cfh2m4fp01s72iyt3k85wr"
+      },
+      {
+         "teamId": "r779twl0od91uerk5u6jk",
+         "score": "180",
+         "darts": 3,
+         "legId": "cfh2m4fp01s72iyt3k85wr"
+      },
+      {
+         "teamId": "lxsdev9dt4qukbt9wcsw2",
+         "score": "180",
+         "darts": 3,
+         "legId": "cfh2m4fp01s72iyt3k85wr"
+      },
+      {
+         "teamId": "r779twl0od91uerk5u6jk",
+         "score": "180",
+         "darts": 3,
+         "legId": "cfh2m4fp01s72iyt3k85wr"
+      },
+      {
+         "teamId": "lxsdev9dt4qukbt9wcsw2",
+         "score": "141",
+         "darts": 3,
+         "legId": "cfh2m4fp01s72iyt3k85wr"
+      },
+      {
+         "teamId": "r779twl0od91uerk5u6jk",
+         "score": "180",
+         "darts": 3,
+         "legId": "yxyv1em133d1vus1gzi3rd"
+      },
+      {
+         "teamId": "lxsdev9dt4qukbt9wcsw2",
+         "score": "52",
+         "darts": 3,
+         "legId": "yxyv1em133d1vus1gzi3rd"
+      },
+      {
+         "teamId": "r779twl0od91uerk5u6jk",
+         "score": "180",
+         "darts": 3,
+         "legId": "yxyv1em133d1vus1gzi3rd"
+      },
+      {
+         "teamId": "lxsdev9dt4qukbt9wcsw2",
+         "score": "52",
+         "darts": 3,
+         "legId": "yxyv1em133d1vus1gzi3rd"
+      },
+      {
+         "teamId": "r779twl0od91uerk5u6jk",
+         "score": "14",
+         "darts": 3,
+         "legId": "yxyv1em133d1vus1gzi3rd"
+      },
+      {
+         "teamId": "lxsdev9dt4qukbt9wcsw2",
+         "score": "58",
+         "darts": 3,
+         "legId": "yxyv1em133d1vus1gzi3rd"
+      },
+      {
+         "teamId": "r779twl0od91uerk5u6jk",
+         "score": "127",
+         "darts": 3,
+         "legId": "yxyv1em133d1vus1gzi3rd"
+      },
+      {
+         "teamId": "lxsdev9dt4qukbt9wcsw2",
+         "score": "180",
+         "darts": 3,
+         "legId": "2eicmqyu98el98phg4ci9d"
+      },
+      {
+         "teamId": "r779twl0od91uerk5u6jk",
+         "score": "180",
+         "darts": 3,
+         "legId": "2eicmqyu98el98phg4ci9d"
+      },
+      {
+         "teamId": "lxsdev9dt4qukbt9wcsw2",
+         "score": "180",
+         "darts": 3,
+         "legId": "2eicmqyu98el98phg4ci9d"
+      },
+      {
+         "teamId": "r779twl0od91uerk5u6jk",
+         "score": "18",
+         "darts": 3,
+         "legId": "2eicmqyu98el98phg4ci9d"
+      },
+      {
+         "teamId": "lxsdev9dt4qukbt9wcsw2",
+         "score": "180",
+         "darts": 3,
+         "legId": "2eicmqyu98el98phg4ci9d"
+      },
+      {
+         "teamId": "lxsdev9dt4qukbt9wcsw2",
+         "score": "141",
+         "darts": 3,
+         "legId": "2eicmqyu98el98phg4ci9d"
+      }
+   ],
+   "winnerTeam": {
+      "isActivTeam": false,
+      "typeTeam": "SIMPLE",
+      "players": [
+         {
+            "nom": "TT",
+            "prenom": "Julien",
+            "id": "h7k2okq9qxks93vhn04fdl",
+            "displayName": "Julien T.",
+            "idTeam": "lxsdev9dt4qukbt9wcsw2"
+         }
+      ],
+      "id": "lxsdev9dt4qukbt9wcsw2",
+      "displayName": "Julien T. ",
+      "score": 0,
+      "leg": 0,
+      "set": 1
+   }
+}

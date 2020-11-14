@@ -1,0 +1,182 @@
+{
+   "arrayTeams": [
+      {
+         "isActivTeam": false,
+         "typeTeam": "SIMPLE",
+         "players": [
+            {
+               "nom": "",
+               "prenom": "Ludo",
+               "id": "x9f16p2jd1s1m79ilpkcz5",
+               "displayName": "Ludo .",
+               "idTeam": "gengpgi0ybq2abwqrpjhyy"
+            }
+         ],
+         "id": "gengpgi0ybq2abwqrpjhyy",
+         "displayName": "Ludo . ",
+         "score": 0,
+         "leg": 0,
+         "set": 1
+      },
+      {
+         "isActivTeam": false,
+         "typeTeam": "SIMPLE",
+         "players": [
+            {
+               "nom": "",
+               "prenom": "Ludo T",
+               "id": "q0grbywmk8rdhokpy73f6s",
+               "displayName": "Ludo T .",
+               "idTeam": "qeb39lr8s51pcxtlbktpu"
+            }
+         ],
+         "id": "qeb39lr8s51pcxtlbktpu",
+         "displayName": "Ludo T . ",
+         "score": 16,
+         "leg": 0,
+         "set": 0
+      }
+   ],
+   "indexActivTeam": 0,
+   "id": "9a3pp58ecrlljqgtif2jip",
+   "setNeed": 1,
+   "legNeed": "1",
+   "competition": "Phase de poule",
+   "sets": [
+      {
+         "id": "8njo3qx6mmt5pfnwr74kan",
+         "winnerTeam": "gengpgi0ybq2abwqrpjhyy"
+      }
+   ],
+   "stadeCompetition": "Simple Hommes",
+   "legs": [
+      {
+         "setId": "8njo3qx6mmt5pfnwr74kan",
+         "id": "4oxd5z2yahw1npoimha",
+         "startTeamId": "gengpgi0ybq2abwqrpjhyy",
+         "winnerTeam": "gengpgi0ybq2abwqrpjhyy"
+      }
+   ],
+   "throws": [
+      {
+         "teamId": "gengpgi0ybq2abwqrpjhyy",
+         "score": "81",
+         "darts": 3,
+         "legId": "4oxd5z2yahw1npoimha"
+      },
+      {
+         "teamId": "qeb39lr8s51pcxtlbktpu",
+         "score": "98",
+         "darts": 3,
+         "legId": "4oxd5z2yahw1npoimha"
+      },
+      {
+         "teamId": "gengpgi0ybq2abwqrpjhyy",
+         "score": "85",
+         "darts": 3,
+         "legId": "4oxd5z2yahw1npoimha"
+      },
+      {
+         "teamId": "qeb39lr8s51pcxtlbktpu",
+         "score": "22",
+         "darts": 3,
+         "legId": "4oxd5z2yahw1npoimha"
+      },
+      {
+         "teamId": "gengpgi0ybq2abwqrpjhyy",
+         "score": "100",
+         "darts": 3,
+         "legId": "4oxd5z2yahw1npoimha"
+      },
+      {
+         "teamId": "qeb39lr8s51pcxtlbktpu",
+         "score": "45",
+         "darts": 3,
+         "legId": "4oxd5z2yahw1npoimha"
+      },
+      {
+         "teamId": "gengpgi0ybq2abwqrpjhyy",
+         "score": "45",
+         "darts": 3,
+         "legId": "4oxd5z2yahw1npoimha"
+      },
+      {
+         "teamId": "qeb39lr8s51pcxtlbktpu",
+         "score": "100",
+         "darts": 3,
+         "legId": "4oxd5z2yahw1npoimha"
+      },
+      {
+         "teamId": "gengpgi0ybq2abwqrpjhyy",
+         "score": "21",
+         "darts": 3,
+         "legId": "4oxd5z2yahw1npoimha"
+      },
+      {
+         "teamId": "qeb39lr8s51pcxtlbktpu",
+         "score": "41",
+         "darts": 3,
+         "legId": "4oxd5z2yahw1npoimha"
+      },
+      {
+         "teamId": "gengpgi0ybq2abwqrpjhyy",
+         "score": "60",
+         "darts": 3,
+         "legId": "4oxd5z2yahw1npoimha"
+      },
+      {
+         "teamId": "qeb39lr8s51pcxtlbktpu",
+         "score": "100",
+         "darts": 3,
+         "legId": "4oxd5z2yahw1npoimha"
+      },
+      {
+         "teamId": "gengpgi0ybq2abwqrpjhyy",
+         "score": "58",
+         "darts": 3,
+         "legId": "4oxd5z2yahw1npoimha"
+      },
+      {
+         "teamId": "qeb39lr8s51pcxtlbktpu",
+         "score": "39",
+         "darts": 3,
+         "legId": "4oxd5z2yahw1npoimha"
+      },
+      {
+         "teamId": "gengpgi0ybq2abwqrpjhyy",
+         "score": "19",
+         "darts": 3,
+         "legId": "4oxd5z2yahw1npoimha"
+      },
+      {
+         "teamId": "qeb39lr8s51pcxtlbktpu",
+         "score": "40",
+         "darts": 3,
+         "legId": "4oxd5z2yahw1npoimha"
+      },
+      {
+         "teamId": "gengpgi0ybq2abwqrpjhyy",
+         "score": "32",
+         "darts": 1,
+         "legId": "4oxd5z2yahw1npoimha"
+      }
+   ],
+   "winnerTeam": {
+      "isActivTeam": false,
+      "typeTeam": "SIMPLE",
+      "players": [
+         {
+            "nom": "",
+            "prenom": "Ludo",
+            "id": "x9f16p2jd1s1m79ilpkcz5",
+            "displayName": "Ludo .",
+            "idTeam": "gengpgi0ybq2abwqrpjhyy"
+         }
+      ],
+      "id": "gengpgi0ybq2abwqrpjhyy",
+      "displayName": "Ludo . ",
+      "score": 0,
+      "leg": 0,
+      "set": 1
+   }
+}

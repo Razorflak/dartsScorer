@@ -1,0 +1,137 @@
+body{
+	min-height: 100vh;
+	font-family: "RobotoRegul";
+	color: white;
+}
+
+html{
+	min-height: 100vh;
+	font-family: "RobotoRegul";
+}
+
+#mainContaineur{
+	position:relative;
+	width: 100%;
+	min-height: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.colStatPayer{
+	width: 38%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+#colMiddle{
+	width: 24%;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	
+}
+
+.headerPlayer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 9vh;
+	font-size: 5vh;
+}
+
+.headerMiddle{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 9vh;
+	font-size: 3vh;
+	
+}
+
+.libelleStatContaineur{
+	display: flex;
+	position: relative;
+	height: 9vh;
+	font-size: 2vh;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+.statContaineur{
+	display: flex;
+	height: 9vh;
+	align-items: center;
+	width: 100%;
+}
+
+.stat{
+	display: flex;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 100%;
+	line-height: 100%;
+	width: 0%;
+	font-size: 2vh;
+	text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+
+	align-items: center;
+}
+
+
+
+.leftContaineur{
+	justify-content: flex-end;
+	padding-left: 15px;
+}
+
+.leftPlayer{
+	
+	padding-left: 15px;
+}
+
+.rightContaineur{
+	padding-right: 15px;
+	justify-content: flex-end;
+}
+
+.rightPlayer{
+	
+	justify-content: flex-end;
+	padding-right: 15px;
+}
+
+
+.bgContaineurLeft{
+	justify-content: flex-end;
+	min-width: 100%;
+	height: 50%;
+	line-height: 50%;
+	background-color: rgba(84, 84, 84, 0.5);
+}
+
+.bgContaineurRight{
+	justify-content: flex-start;
+	min-width: 100%;
+	height: 50%;
+	line-height: 50%;
+	background-color: rgba(84, 84, 84, 0.5);
+}
+
+.bgMiddleCol{
+	height: 50%;
+	width: 100%;
+	background-color: #545454;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@font-face {
+	font-family: "RobotoRegul";
+	src: url('./common/Roboto-Regular.ttf');
+}

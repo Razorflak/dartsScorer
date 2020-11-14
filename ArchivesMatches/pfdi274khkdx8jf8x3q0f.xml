@@ -1,0 +1,122 @@
+{
+   "arrayTeams": [
+      {
+         "isActivTeam": false,
+         "typeTeam": "SIMPLE",
+         "players": [
+            {
+               "nom": "1",
+               "prenom": "Test",
+               "id": "mconvqr79ao6l4ha22h6xt",
+               "displayName": "Test 1.",
+               "idTeam": "urygcbud1ci4im1pdt3u"
+            }
+         ],
+         "id": "urygcbud1ci4im1pdt3u",
+         "displayName": "Test 1. ",
+         "score": 0,
+         "leg": 0,
+         "set": 1
+      },
+      {
+         "isActivTeam": false,
+         "typeTeam": "SIMPLE",
+         "players": [
+            {
+               "nom": "2",
+               "prenom": "Test",
+               "id": "jeok4n8jj0j3852aznfgqc",
+               "displayName": "Test 2.",
+               "idTeam": "6d9lthng4l79n344mcnld6"
+            }
+         ],
+         "id": "6d9lthng4l79n344mcnld6",
+         "displayName": "Test 2. ",
+         "score": 21,
+         "leg": 0,
+         "set": 0
+      }
+   ],
+   "indexActivTeam": 0,
+   "id": "pfdi274khkdx8jf8x3q0f",
+   "setNeed": 1,
+   "legNeed": "1",
+   "competition": "Phase de poule",
+   "sets": [
+      {
+         "id": "q9ta34wrewel0mw2vhe6e",
+         "winnerTeam": "urygcbud1ci4im1pdt3u"
+      }
+   ],
+   "stadeCompetition": "Simple Hommes",
+   "legs": [
+      {
+         "setId": "q9ta34wrewel0mw2vhe6e",
+         "id": "jgl16ynlkh7j4lmv5uri1l",
+         "startTeamId": "urygcbud1ci4im1pdt3u",
+         "winnerTeam": "urygcbud1ci4im1pdt3u"
+      }
+   ],
+   "throws": [
+      {
+         "teamId": "urygcbud1ci4im1pdt3u",
+         "score": "180",
+         "darts": 3,
+         "legId": "jgl16ynlkh7j4lmv5uri1l"
+      },
+      {
+         "teamId": "6d9lthng4l79n344mcnld6",
+         "score": "180",
+         "darts": 3,
+         "legId": "jgl16ynlkh7j4lmv5uri1l"
+      },
+      {
+         "teamId": "urygcbud1ci4im1pdt3u",
+         "score": "140",
+         "darts": 3,
+         "legId": "jgl16ynlkh7j4lmv5uri1l"
+      },
+      {
+         "teamId": "6d9lthng4l79n344mcnld6",
+         "score": "180",
+         "darts": 3,
+         "legId": "jgl16ynlkh7j4lmv5uri1l"
+      },
+      {
+         "teamId": "urygcbud1ci4im1pdt3u",
+         "score": "120",
+         "darts": 3,
+         "legId": "jgl16ynlkh7j4lmv5uri1l"
+      },
+      {
+         "teamId": "6d9lthng4l79n344mcnld6",
+         "score": "120",
+         "darts": 3,
+         "legId": "jgl16ynlkh7j4lmv5uri1l"
+      },
+      {
+         "teamId": "urygcbud1ci4im1pdt3u",
+         "score": "61",
+         "darts": 2,
+         "legId": "jgl16ynlkh7j4lmv5uri1l"
+      }
+   ],
+   "winnerTeam": {
+      "isActivTeam": false,
+      "typeTeam": "SIMPLE",
+      "players": [
+         {
+            "nom": "1",
+            "prenom": "Test",
+            "id": "mconvqr79ao6l4ha22h6xt",
+            "displayName": "Test 1.",
+            "idTeam": "urygcbud1ci4im1pdt3u"
+         }
+      ],
+      "id": "urygcbud1ci4im1pdt3u",
+      "displayName": "Test 1. ",
+      "score": 0,
+      "leg": 0,
+      "set": 1
+   }
+}

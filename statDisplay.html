@@ -1,0 +1,185 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!--BootStrap-->
+<script src="jquery-3.4.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="./common/bootStrap/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="./common/bootStrap/css/bootstrap.min.css">
+<script type="text/javascript" src="./common/bootStrap/js/bootstrap.bundle.js"></script>
+<script type="text/javascript" src="./common/bootStrap/js/bootstrap.bundle.min.js"></script>
+<!--BootStrap-->
+<link rel="stylesheet" type="text/css" href="statDisplay.css" media="all"/>
+<script type="text/javascript" src="statDisplay.js"></script>
+</head>
+	<body onload="onLoad();" visibility="hidden">
+		<div id="mainContaineur">
+			<div class="colStatPayer">
+				<div class="headerPlayer" id="TeamName1">
+					Jean-Marc H.
+				</div>
+				<div class="statContaineur leftContaineur">
+					<div class="stat bgContaineurLeft" width="100%">
+						<div class="stat leftPlayer" id="manchesPlayer1"></div>
+					</div>
+				</div>
+				<div class="statContaineur leftContaineur">
+					<div class="stat bgContaineurLeft" width="100%">
+						<div class="stat leftPlayer" id="moyennePlayer1"></div>
+					</div>
+				</div>
+				<div class="statContaineur leftContaineur">
+					<div class="stat leftPlayer bgContaineurLeft" width="100%">
+						<div class="stat leftPlayer" id="bestLegPlayer1"></div>
+					</div>
+				</div>
+				<div class="statContaineur leftContaineur">
+					<div class="stat bgContaineurLeft" width="100%">
+						<div class="stat leftPlayer" id="bestFinishPlayer1"></div>
+					</div>
+				</div>
+				<div class="statContaineur leftContaineur">
+					<div class="stat bgContaineurLeft" width="100%">
+						<div class="stat leftPlayer" id="bestThrowPlayer1"></div>
+					</div>
+				</div>
+				<div class="statContaineur leftContaineur">
+					<div class="stat bgContaineurLeft" width="100%">
+						<div class="stat leftPlayer" id="60Player1"></div>
+					</div>
+				</div>
+				<div class="statContaineur leftContaineur">
+					<div class="stat bgContaineurLeft" width="100%">
+						<div class="stat leftPlayer" id="100Player1"></div>
+					</div>
+				</div>
+				<div class="statContaineur leftContaineur">
+					<div class="stat bgContaineurLeft" width="100%">
+						<div class="stat leftPlayer" id="140Player1"></div>
+					</div>
+				</div>
+				<div class="statContaineur leftContaineur">
+					<div class="stat bgContaineurLeft" width="100%">
+						<div class="stat leftPlayer" id="170Player1"></div>
+					</div>
+				</div>
+				<div class="statContaineur leftContaineur">
+					<div class="stat bgContaineurLeft" width="100%">
+						<div class="stat leftPlayer" id="180Player1"></div>
+					</div>
+				</div>
+			</div>
+			<div id="colMiddle" z-index=10>
+				<div class="headerMiddle" id="stadeCompetition">
+					1/2 Finale Hommes
+				</div>
+				<div class="libelleStatContaineur">
+					<div class="bgMiddleCol">
+						MANCHES
+					</div>
+				</div>
+				<div class="libelleStatContaineur">
+					<div class="bgMiddleCol">
+						MOYENNES
+					</div>
+				</div>
+				<div class="libelleStatContaineur">
+					<div class="bgMiddleCol">
+						MEILLEURE MANCHE
+					</div>
+				</div>
+				<div class="libelleStatContaineur">
+					<div class="bgMiddleCol">
+						MEILLEUR FINISH
+					</div>
+				</div>
+				<div class="libelleStatContaineur">
+					<div class="bgMiddleCol">
+						HIGHT SCORE
+					</div>
+				</div>
+				<div class="libelleStatContaineur">
+					<div class="bgMiddleCol">
+						60+
+					</div>
+				</div>
+				<div class="libelleStatContaineur">
+					<div class="bgMiddleCol">
+						100+
+					</div>
+				</div>
+				<div class="libelleStatContaineur">
+					<div class="bgMiddleCol">
+						140+
+					</div>
+				</div>
+				<div class="libelleStatContaineur">
+					<div class="bgMiddleCol">
+						170+
+					</div>
+				</div>
+				<div class="libelleStatContaineur">
+					<div class="bgMiddleCol">
+						180
+					</div>
+				</div>
+			</div>
+			<div class="colStatPayer">
+				<div class="headerPlayer" id="TeamName2">
+					Julien T.
+				</div>
+				
+				<div class="statContaineur rightContaineur">
+					<div class="stat bgContaineurRight" width="100%">
+						<div class="stat rightPlayer rightContaineur" id="manchesPlayer2"></div>
+					</div>	
+				</div>
+				<div class="statContaineur rightContaineur">
+					<div class="stat bgContaineurRight" width="100%">
+						<div class="stat rightPlayer " id="moyennePlayer2"></div>
+					</div>
+				</div>
+				<div class="statContaineur rightContaineur">
+					<div class="stat bgContaineurRight" width="100%">
+						<div class="stat rightPlayer " id="bestLegPlayer2"></div>
+					</div>
+				</div>
+				<div class="statContaineur rightContaineur">
+					<div class="stat bgContaineurRight" width="100%">
+						<div class="stat rightPlayer " id="bestFinishPlayer2"></div>
+					</div>
+				</div>
+				<div class="statContaineur rightContaineur">
+					<div class="stat bgContaineurRight" width="100%">
+						<div class="stat rightPlayer " id="bestThrowPlayer2"></div>
+					</div>
+				</div>
+				<div class="statContaineur rightContaineur">
+					<div class="stat bgContaineurRight" width="100%">
+						<div class="stat rightPlayer " id="60Player2"></div>
+					</div>
+				</div>
+				<div class="statContaineur rightContaineur">
+					<div class="stat bgContaineurRight" width="100%">
+						<div class="stat rightPlayer " id="100Player2"></div>
+					</div>
+				</div>
+				<div class="statContaineur rightContaineur">
+					<div class="stat bgContaineurRight" width="100%">
+						<div class="stat rightPlayer " id="140Player2"></div>
+					</div>
+				</div>
+				<div class="statContaineur rightContaineur">
+					<div class="stat bgContaineurRight" width="100%">
+						<div class="stat rightPlayer " id="170Player2"></div>
+					</div>
+				</div>
+				<div class="statContaineur rightContaineur">
+					<div class="stat bgContaineurRight" width="100%">
+						<div class="stat rightPlayer " id="180Player2"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html> 

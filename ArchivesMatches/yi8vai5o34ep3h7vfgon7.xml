@@ -1,0 +1,692 @@
+{
+   "arrayTeams": [
+      {
+         "isActivTeam": false,
+         "typeTeam": "SIMPLE",
+         "players": [
+            {
+               "nom": "",
+               "prenom": "Béa ",
+               "id": "2v9f0x5islxj1iwx3an7af",
+               "displayName": "Béa  .",
+               "idTeam": "ox7ta2t0lgccmw03q2kxc"
+            }
+         ],
+         "id": "ox7ta2t0lgccmw03q2kxc",
+         "displayName": "Béa  . ",
+         "score": 24,
+         "leg": 0,
+         "set": 0
+      },
+      {
+         "isActivTeam": false,
+         "typeTeam": "SIMPLE",
+         "players": [
+            {
+               "nom": "",
+               "prenom": "Nadège ",
+               "id": "skrgu9y2ncqfdt2jilunbk",
+               "displayName": "Nadège  .",
+               "idTeam": "ugxbnm7ntek14ho3cttk9an"
+            }
+         ],
+         "id": "ugxbnm7ntek14ho3cttk9an",
+         "displayName": "Nadège  . ",
+         "score": 0,
+         "leg": 0,
+         "set": 1
+      }
+   ],
+   "indexActivTeam": 1,
+   "id": "yi8vai5o34ep3h7vfgon7",
+   "setNeed": 1,
+   "legNeed": "4",
+   "competition": "Finale",
+   "sets": [
+      {
+         "id": "iprg4m63m8wgstchsawmh",
+         "winnerTeam": "ugxbnm7ntek14ho3cttk9an"
+      }
+   ],
+   "stadeCompetition": "Simple Femmes",
+   "legs": [
+      {
+         "setId": "iprg4m63m8wgstchsawmh",
+         "id": "4vf0299zwttvi3qs3jzqrk",
+         "startTeamId": "ugxbnm7ntek14ho3cttk9an",
+         "winnerTeam": "ugxbnm7ntek14ho3cttk9an"
+      },
+      {
+         "winnerTeam": "ox7ta2t0lgccmw03q2kxc",
+         "setId": "iprg4m63m8wgstchsawmh",
+         "id": "25fqkhscqwqpffrszr486h",
+         "startTeamId": "ox7ta2t0lgccmw03q2kxc"
+      },
+      {
+         "winnerTeam": "ugxbnm7ntek14ho3cttk9an",
+         "setId": "iprg4m63m8wgstchsawmh",
+         "id": "j9p5mzum26lh1pvjl26rph",
+         "startTeamId": "ugxbnm7ntek14ho3cttk9an"
+      },
+      {
+         "winnerTeam": "ugxbnm7ntek14ho3cttk9an",
+         "setId": "iprg4m63m8wgstchsawmh",
+         "id": "nm1st6vag343qqb92ojlg",
+         "startTeamId": "ox7ta2t0lgccmw03q2kxc"
+      },
+      {
+         "winnerTeam": "ugxbnm7ntek14ho3cttk9an",
+         "setId": "iprg4m63m8wgstchsawmh",
+         "id": "6uamq3jptvmkw3epap1w1q",
+         "startTeamId": "ugxbnm7ntek14ho3cttk9an"
+      }
+   ],
+   "throws": [
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "26",
+         "darts": 3,
+         "legId": "4vf0299zwttvi3qs3jzqrk"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "8",
+         "darts": 3,
+         "legId": "4vf0299zwttvi3qs3jzqrk"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "41",
+         "darts": 3,
+         "legId": "4vf0299zwttvi3qs3jzqrk"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "45",
+         "darts": 3,
+         "legId": "4vf0299zwttvi3qs3jzqrk"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "43",
+         "darts": 3,
+         "legId": "4vf0299zwttvi3qs3jzqrk"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "30",
+         "darts": 3,
+         "legId": "4vf0299zwttvi3qs3jzqrk"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "52",
+         "darts": 3,
+         "legId": "4vf0299zwttvi3qs3jzqrk"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "26",
+         "darts": 3,
+         "legId": "4vf0299zwttvi3qs3jzqrk"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "21",
+         "darts": 3,
+         "legId": "4vf0299zwttvi3qs3jzqrk"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "29",
+         "darts": 3,
+         "legId": "4vf0299zwttvi3qs3jzqrk"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "45",
+         "darts": 3,
+         "legId": "4vf0299zwttvi3qs3jzqrk"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "33",
+         "darts": 3,
+         "legId": "4vf0299zwttvi3qs3jzqrk"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "41",
+         "darts": 3,
+         "legId": "4vf0299zwttvi3qs3jzqrk"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "45",
+         "darts": 3,
+         "legId": "4vf0299zwttvi3qs3jzqrk"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "100",
+         "darts": 3,
+         "legId": "4vf0299zwttvi3qs3jzqrk"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "76",
+         "darts": 3,
+         "legId": "4vf0299zwttvi3qs3jzqrk"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "80",
+         "darts": 3,
+         "legId": "4vf0299zwttvi3qs3jzqrk"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "13",
+         "darts": 3,
+         "legId": "4vf0299zwttvi3qs3jzqrk"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "12",
+         "darts": 3,
+         "legId": "4vf0299zwttvi3qs3jzqrk"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "20",
+         "darts": 3,
+         "legId": "4vf0299zwttvi3qs3jzqrk"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "40",
+         "darts": 3,
+         "legId": "4vf0299zwttvi3qs3jzqrk"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "43",
+         "darts": 3,
+         "legId": "25fqkhscqwqpffrszr486h"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "95",
+         "darts": 3,
+         "legId": "25fqkhscqwqpffrszr486h"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "26",
+         "darts": 3,
+         "legId": "25fqkhscqwqpffrszr486h"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "30",
+         "darts": 3,
+         "legId": "25fqkhscqwqpffrszr486h"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "45",
+         "darts": 3,
+         "legId": "25fqkhscqwqpffrszr486h"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "22",
+         "darts": 3,
+         "legId": "25fqkhscqwqpffrszr486h"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "100",
+         "darts": 3,
+         "legId": "25fqkhscqwqpffrszr486h"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "60",
+         "darts": 3,
+         "legId": "25fqkhscqwqpffrszr486h"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "77",
+         "darts": 3,
+         "legId": "25fqkhscqwqpffrszr486h"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "60",
+         "darts": 3,
+         "legId": "25fqkhscqwqpffrszr486h"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "100",
+         "darts": 3,
+         "legId": "25fqkhscqwqpffrszr486h"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "83",
+         "darts": 3,
+         "legId": "25fqkhscqwqpffrszr486h"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "78",
+         "darts": 3,
+         "legId": "25fqkhscqwqpffrszr486h"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "26",
+         "darts": 3,
+         "legId": "25fqkhscqwqpffrszr486h"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "27",
+         "darts": 3,
+         "legId": "25fqkhscqwqpffrszr486h"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "49",
+         "darts": 3,
+         "legId": "25fqkhscqwqpffrszr486h"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "3",
+         "darts": 3,
+         "legId": "25fqkhscqwqpffrszr486h"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "56",
+         "darts": 3,
+         "legId": "25fqkhscqwqpffrszr486h"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "2",
+         "darts": 1,
+         "legId": "25fqkhscqwqpffrszr486h"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "41",
+         "darts": 3,
+         "legId": "j9p5mzum26lh1pvjl26rph"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "45",
+         "darts": 3,
+         "legId": "j9p5mzum26lh1pvjl26rph"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "60",
+         "darts": 3,
+         "legId": "j9p5mzum26lh1pvjl26rph"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "45",
+         "darts": 3,
+         "legId": "j9p5mzum26lh1pvjl26rph"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "10",
+         "darts": 3,
+         "legId": "j9p5mzum26lh1pvjl26rph"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "48",
+         "darts": 3,
+         "legId": "j9p5mzum26lh1pvjl26rph"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "121",
+         "darts": 3,
+         "legId": "j9p5mzum26lh1pvjl26rph"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "81",
+         "darts": 3,
+         "legId": "j9p5mzum26lh1pvjl26rph"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "60",
+         "darts": 3,
+         "legId": "j9p5mzum26lh1pvjl26rph"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "60",
+         "darts": 3,
+         "legId": "j9p5mzum26lh1pvjl26rph"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "55",
+         "darts": 3,
+         "legId": "j9p5mzum26lh1pvjl26rph"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "45",
+         "darts": 3,
+         "legId": "j9p5mzum26lh1pvjl26rph"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "41",
+         "darts": 3,
+         "legId": "j9p5mzum26lh1pvjl26rph"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "41",
+         "darts": 3,
+         "legId": "j9p5mzum26lh1pvjl26rph"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "85",
+         "darts": 3,
+         "legId": "j9p5mzum26lh1pvjl26rph"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "41",
+         "darts": 3,
+         "legId": "j9p5mzum26lh1pvjl26rph"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "28",
+         "darts": 1,
+         "legId": "j9p5mzum26lh1pvjl26rph"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "45",
+         "darts": 3,
+         "legId": "nm1st6vag343qqb92ojlg"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "2",
+         "darts": 3,
+         "legId": "nm1st6vag343qqb92ojlg"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "45",
+         "darts": 3,
+         "legId": "nm1st6vag343qqb92ojlg"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "40",
+         "darts": 3,
+         "legId": "nm1st6vag343qqb92ojlg"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "25",
+         "darts": 3,
+         "legId": "nm1st6vag343qqb92ojlg"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "43",
+         "darts": 3,
+         "legId": "nm1st6vag343qqb92ojlg"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "26",
+         "darts": 3,
+         "legId": "nm1st6vag343qqb92ojlg"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "30",
+         "darts": 3,
+         "legId": "nm1st6vag343qqb92ojlg"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "41",
+         "darts": 3,
+         "legId": "nm1st6vag343qqb92ojlg"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "58",
+         "darts": 3,
+         "legId": "nm1st6vag343qqb92ojlg"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "17",
+         "darts": 3,
+         "legId": "nm1st6vag343qqb92ojlg"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "26",
+         "darts": 3,
+         "legId": "nm1st6vag343qqb92ojlg"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "45",
+         "darts": 3,
+         "legId": "nm1st6vag343qqb92ojlg"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "38",
+         "darts": 3,
+         "legId": "nm1st6vag343qqb92ojlg"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "41",
+         "darts": 3,
+         "legId": "nm1st6vag343qqb92ojlg"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "59",
+         "darts": 3,
+         "legId": "nm1st6vag343qqb92ojlg"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "31",
+         "darts": 3,
+         "legId": "nm1st6vag343qqb92ojlg"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "41",
+         "darts": 3,
+         "legId": "nm1st6vag343qqb92ojlg"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "45",
+         "darts": 3,
+         "legId": "nm1st6vag343qqb92ojlg"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "40",
+         "darts": 3,
+         "legId": "nm1st6vag343qqb92ojlg"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "60",
+         "darts": 3,
+         "legId": "nm1st6vag343qqb92ojlg"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "60",
+         "darts": 3,
+         "legId": "nm1st6vag343qqb92ojlg"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "48",
+         "darts": 3,
+         "legId": "nm1st6vag343qqb92ojlg"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "64",
+         "darts": 3,
+         "legId": "nm1st6vag343qqb92ojlg"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "26",
+         "darts": 3,
+         "legId": "6uamq3jptvmkw3epap1w1q"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "30",
+         "darts": 3,
+         "legId": "6uamq3jptvmkw3epap1w1q"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "80",
+         "darts": 3,
+         "legId": "6uamq3jptvmkw3epap1w1q"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "45",
+         "darts": 3,
+         "legId": "6uamq3jptvmkw3epap1w1q"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "45",
+         "darts": 3,
+         "legId": "6uamq3jptvmkw3epap1w1q"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "100",
+         "darts": 3,
+         "legId": "6uamq3jptvmkw3epap1w1q"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "45",
+         "darts": 3,
+         "legId": "6uamq3jptvmkw3epap1w1q"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "41",
+         "darts": 3,
+         "legId": "6uamq3jptvmkw3epap1w1q"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "60",
+         "darts": 3,
+         "legId": "6uamq3jptvmkw3epap1w1q"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "60",
+         "darts": 3,
+         "legId": "6uamq3jptvmkw3epap1w1q"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "25",
+         "darts": 3,
+         "legId": "6uamq3jptvmkw3epap1w1q"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "100",
+         "darts": 3,
+         "legId": "6uamq3jptvmkw3epap1w1q"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "81",
+         "darts": 3,
+         "legId": "6uamq3jptvmkw3epap1w1q"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "75",
+         "darts": 3,
+         "legId": "6uamq3jptvmkw3epap1w1q"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "53",
+         "darts": 3,
+         "legId": "6uamq3jptvmkw3epap1w1q"
+      },
+      {
+         "teamId": "ox7ta2t0lgccmw03q2kxc",
+         "score": "26",
+         "darts": 3,
+         "legId": "6uamq3jptvmkw3epap1w1q"
+      },
+      {
+         "teamId": "ugxbnm7ntek14ho3cttk9an",
+         "score": "86",
+         "darts": 2,
+         "legId": "6uamq3jptvmkw3epap1w1q"
+      }
+   ],
+   "winnerTeam": {
+      "isActivTeam": false,
+      "typeTeam": "SIMPLE",
+      "players": [
+         {
+            "nom": "",
+            "prenom": "Nadège ",
+            "id": "skrgu9y2ncqfdt2jilunbk",
+            "displayName": "Nadège  .",
+            "idTeam": "ugxbnm7ntek14ho3cttk9an"
+         }
+      ],
+      "id": "ugxbnm7ntek14ho3cttk9an",
+      "displayName": "Nadège  . ",
+      "score": 0,
+      "leg": 0,
+      "set": 1
+   }
+}

@@ -1,0 +1,260 @@
+{
+   "arrayTeams": [
+      {
+         "isActivTeam": false,
+         "typeTeam": "SIMPLE",
+         "players": [
+            {
+               "nom": "Perret",
+               "prenom": "Christelle",
+               "id": "iuu58sxpfkpl7bp15zkokj",
+               "displayName": "Christelle P.",
+               "idTeam": "er9hll5zn3snandcpu0ub"
+            }
+         ],
+         "id": "er9hll5zn3snandcpu0ub",
+         "displayName": "Christelle P. ",
+         "score": 328,
+         "leg": 0,
+         "set": 0
+      },
+      {
+         "isActivTeam": false,
+         "typeTeam": "SIMPLE",
+         "players": [
+            {
+               "nom": "Tanguy",
+               "prenom": "Julien",
+               "id": "ctetx25brigbjs6l9k6bc",
+               "displayName": "Julien T.",
+               "idTeam": "5o7t36sokb9hsspv1p4vzj"
+            }
+         ],
+         "id": "5o7t36sokb9hsspv1p4vzj",
+         "displayName": "Julien T. ",
+         "score": 0,
+         "leg": 0,
+         "set": 1
+      }
+   ],
+   "indexActivTeam": 1,
+   "id": "wxxogwzdnnio8ta1zik81",
+   "setNeed": 1,
+   "legNeed": "2",
+   "competition": "Phase de poule",
+   "sets": [
+      {
+         "id": "lqhfjekw4ijt9294r8r8gq",
+         "winnerTeam": "5o7t36sokb9hsspv1p4vzj"
+      }
+   ],
+   "stadeCompetition": "Simple Femmes",
+   "legs": [
+      {
+         "setId": "lqhfjekw4ijt9294r8r8gq",
+         "id": "h7ueoktumtsezndkkoiqad",
+         "startTeamId": "5o7t36sokb9hsspv1p4vzj",
+         "winnerTeam": "5o7t36sokb9hsspv1p4vzj"
+      },
+      {
+         "winnerTeam": "5o7t36sokb9hsspv1p4vzj",
+         "setId": "lqhfjekw4ijt9294r8r8gq",
+         "id": "yf8xsv39vaainlwwac6rp",
+         "startTeamId": "er9hll5zn3snandcpu0ub"
+      }
+   ],
+   "throws": [
+      {
+         "teamId": "5o7t36sokb9hsspv1p4vzj",
+         "score": "45",
+         "darts": 3,
+         "legId": "h7ueoktumtsezndkkoiqad"
+      },
+      {
+         "teamId": "er9hll5zn3snandcpu0ub",
+         "score": "41",
+         "darts": 3,
+         "legId": "h7ueoktumtsezndkkoiqad"
+      },
+      {
+         "teamId": "5o7t36sokb9hsspv1p4vzj",
+         "score": "26",
+         "darts": 3,
+         "legId": "h7ueoktumtsezndkkoiqad"
+      },
+      {
+         "teamId": "er9hll5zn3snandcpu0ub",
+         "score": "26",
+         "darts": 3,
+         "legId": "h7ueoktumtsezndkkoiqad"
+      },
+      {
+         "teamId": "5o7t36sokb9hsspv1p4vzj",
+         "score": "100",
+         "darts": 3,
+         "legId": "h7ueoktumtsezndkkoiqad"
+      },
+      {
+         "teamId": "er9hll5zn3snandcpu0ub",
+         "score": "53",
+         "darts": 3,
+         "legId": "h7ueoktumtsezndkkoiqad"
+      },
+      {
+         "teamId": "5o7t36sokb9hsspv1p4vzj",
+         "score": "100",
+         "darts": 3,
+         "legId": "h7ueoktumtsezndkkoiqad"
+      },
+      {
+         "teamId": "er9hll5zn3snandcpu0ub",
+         "score": "63",
+         "darts": 3,
+         "legId": "h7ueoktumtsezndkkoiqad"
+      },
+      {
+         "teamId": "5o7t36sokb9hsspv1p4vzj",
+         "score": "59",
+         "darts": 3,
+         "legId": "h7ueoktumtsezndkkoiqad"
+      },
+      {
+         "teamId": "er9hll5zn3snandcpu0ub",
+         "score": "86",
+         "darts": 3,
+         "legId": "h7ueoktumtsezndkkoiqad"
+      },
+      {
+         "teamId": "5o7t36sokb9hsspv1p4vzj",
+         "score": "85",
+         "darts": 3,
+         "legId": "h7ueoktumtsezndkkoiqad"
+      },
+      {
+         "teamId": "er9hll5zn3snandcpu0ub",
+         "score": "30",
+         "darts": 3,
+         "legId": "h7ueoktumtsezndkkoiqad"
+      },
+      {
+         "teamId": "5o7t36sokb9hsspv1p4vzj",
+         "score": "46",
+         "darts": 3,
+         "legId": "h7ueoktumtsezndkkoiqad"
+      },
+      {
+         "teamId": "er9hll5zn3snandcpu0ub",
+         "score": "25",
+         "darts": 3,
+         "legId": "h7ueoktumtsezndkkoiqad"
+      },
+      {
+         "teamId": "5o7t36sokb9hsspv1p4vzj",
+         "score": "40",
+         "darts": 2,
+         "legId": "h7ueoktumtsezndkkoiqad"
+      },
+      {
+         "teamId": "er9hll5zn3snandcpu0ub",
+         "score": "43",
+         "darts": 3,
+         "legId": "yf8xsv39vaainlwwac6rp"
+      },
+      {
+         "teamId": "5o7t36sokb9hsspv1p4vzj",
+         "score": "100",
+         "darts": 3,
+         "legId": "yf8xsv39vaainlwwac6rp"
+      },
+      {
+         "teamId": "er9hll5zn3snandcpu0ub",
+         "score": "27",
+         "darts": 3,
+         "legId": "yf8xsv39vaainlwwac6rp"
+      },
+      {
+         "teamId": "5o7t36sokb9hsspv1p4vzj",
+         "score": "85",
+         "darts": 3,
+         "legId": "yf8xsv39vaainlwwac6rp"
+      },
+      {
+         "teamId": "er9hll5zn3snandcpu0ub",
+         "score": "7",
+         "darts": 3,
+         "legId": "yf8xsv39vaainlwwac6rp"
+      },
+      {
+         "teamId": "5o7t36sokb9hsspv1p4vzj",
+         "score": "23",
+         "darts": 3,
+         "legId": "yf8xsv39vaainlwwac6rp"
+      },
+      {
+         "teamId": "er9hll5zn3snandcpu0ub",
+         "score": "26",
+         "darts": 3,
+         "legId": "yf8xsv39vaainlwwac6rp"
+      },
+      {
+         "teamId": "5o7t36sokb9hsspv1p4vzj",
+         "score": "45",
+         "darts": 3,
+         "legId": "yf8xsv39vaainlwwac6rp"
+      },
+      {
+         "teamId": "er9hll5zn3snandcpu0ub",
+         "score": "26",
+         "darts": 3,
+         "legId": "yf8xsv39vaainlwwac6rp"
+      },
+      {
+         "teamId": "5o7t36sokb9hsspv1p4vzj",
+         "score": "78",
+         "darts": 3,
+         "legId": "yf8xsv39vaainlwwac6rp"
+      },
+      {
+         "teamId": "er9hll5zn3snandcpu0ub",
+         "score": "22",
+         "darts": 3,
+         "legId": "yf8xsv39vaainlwwac6rp"
+      },
+      {
+         "teamId": "5o7t36sokb9hsspv1p4vzj",
+         "score": "100",
+         "darts": 3,
+         "legId": "yf8xsv39vaainlwwac6rp"
+      },
+      {
+         "teamId": "er9hll5zn3snandcpu0ub",
+         "score": "22",
+         "darts": 3,
+         "legId": "yf8xsv39vaainlwwac6rp"
+      },
+      {
+         "teamId": "5o7t36sokb9hsspv1p4vzj",
+         "score": "70",
+         "darts": 2,
+         "legId": "yf8xsv39vaainlwwac6rp"
+      }
+   ],
+   "winnerTeam": {
+      "isActivTeam": false,
+      "typeTeam": "SIMPLE",
+      "players": [
+         {
+            "nom": "Tanguy",
+            "prenom": "Julien",
+            "id": "ctetx25brigbjs6l9k6bc",
+            "displayName": "Julien T.",
+            "idTeam": "5o7t36sokb9hsspv1p4vzj"
+         }
+      ],
+      "id": "5o7t36sokb9hsspv1p4vzj",
+      "displayName": "Julien T. ",
+      "score": 0,
+      "leg": 0,
+      "set": 1
+   }
+}
