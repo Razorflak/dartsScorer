@@ -115,7 +115,6 @@ function onLoadCurrentGame(resp){
 		HtmlContent += '<a href=ScorerClient.html?id=' + game.id + '>Reprendre scorage</a>';
 		HtmlContent += '</td>';
 		HtmlContent += '<td>';
-		HtmlContent += '<a href=ScoreDisplay.html?id=' + game.id + '>DisplayScore</a>';
 		HtmlContent += '</td>';
 		HtmlContent += '</tr>';
 	});
@@ -150,4 +149,9 @@ function sendGameToServ(game){
 function onFileXmlCreated(){
 	var currentURL = window.location.href;
 	window.location.replace('ScorerClient.html?id=' + game.id);
+}
+
+function onGoToDisplay(){
+	var currentURL = window.location.href;
+	window.location.replace('ScoreDisplay.html');
 }

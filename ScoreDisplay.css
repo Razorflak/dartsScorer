@@ -2,7 +2,8 @@ body,html{
 	position: absolute;
 	width: 1024px;
 	height: 345px;
-	
+	background-image: url('./common/img/FOND.png');
+	background-repeat: no-repeat;
 	color: white;
 }
 
@@ -38,12 +39,11 @@ body,html{
 .leg{
 	color: #001889;
 	width: 0px;
-	visibility: hidden;
 	font-weight: bolder;
 }
 
 .score{
-	width: 95px;
+	width: 200px;
 	text-align: right;
 }
 
