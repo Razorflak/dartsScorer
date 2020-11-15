@@ -148,10 +148,10 @@ function sendGameToServ(game){
 
 function onFileXmlCreated(){
 	var currentURL = window.location.href;
-	window.location.replace('ScorerClient.html?id=' + game.id);
+	window.location.href = 'ScorerClient.html?id=' + game.id;
 }
 
 function onGoToDisplay(){
 	var currentURL = window.location.href;
-	window.location.replace('ScoreDisplay.html');
+	window.location.href = 'ScoreDisplay.html';
 }
