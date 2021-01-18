@@ -26,9 +26,10 @@ function onCreateGame(){
 	}
 
 	var nbrManche = document.getElementById("nbrManche").value;
+	var nbrSet = document.getElementById("nbrSet").value;
 	var stadeCompetition = document.getElementById("inputStade").value;
 	var competition = document.getElementById("inputCompetion").value;
-	game = new Game(arrayTeam[0],arrayTeam[1],1,nbrManche,tournoi,stadeCompetition);
+	game = new Game(arrayTeam[0],arrayTeam[1],nbrSet,nbrManche,tournoi,stadeCompetition);
 	sendGameToServ(game);
 }
 
@@ -46,7 +47,7 @@ function OnResetFields(){
 
 
 function onTournoiChange(){
-	var tournoi = document.getElementById('inputCompetion').value;
+	let tournoi = document.getElementById('inputCompetion').value;
 	if(tournoi.includes('Double')){
 		document.getElementById('labelEquipe1').innerHTML = 'Equipe 1';
 		document.getElementById('labelEquipe2').innerHTML = 'Equipe 2';

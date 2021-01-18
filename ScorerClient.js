@@ -110,14 +110,14 @@ function sendInfoToServ(game){
 			'Content-Type' : 'application/json'
 		 },
 		data: params,
-	 
+	
 		success: function (obj, textstatus) {
 				    if( obj != "1" ) {
 					   console.log("Error lors de l'écriture du fichier");
 				    }else{
 					    //On vérifie si un winner à été désigné
 					    if (!(game.winnerTeam === undefined)){
-						onPlayerWinMatch();
+								onPlayerWinMatch();
 					    }
 				    }
 			   }

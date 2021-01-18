@@ -1,93 +1,110 @@
-body,html{
-	position: absolute;
-	width: 1024px;
-	height: 345px;
-	background-image: url('./common/img/FOND.png');
-	background-repeat: no-repeat;
-	color: white;
+.mainContainer {
+  max-width: 1250px;
+  max-height: 345px;
+  min-width: 1250px;
+  min-height: 345px;
+  /*background-image: url("./common/img/FOND.png");*/
+  background-color: #001889;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: "RobotoBlack";
 }
 
-#divInfoJoueur->span {
+.header {
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  font-family: "RobotoBlack";
+}
+
+.manche {
+  min-width: 100px;
+  max-width: 100px;
+  text-align: center;
+}
+
+#divInfoJoueur- > span {
   min-height: 75px;
-  display: inline-flex;
+  display: flex;
   align-items: center;
 }
 
-#divInfoJoueur{
-	margin: 0;
-	position: absolute;
-	top: 48%;
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
+#divInfoJoueur {
+  display: flex;
+  flex-direction: column;
 }
 
-.rowh{
-	vertical-align: middle;
-	min-height: 75px;
+.rowh {
+  display: flex;
+  flex-direction: row;
+  min-height: 75px;
 }
 
-.infoGame{
-	font-size: 60px;
-	display:inline-block; 
-	vertical-align:middle
+.infoGame {
+  font-size: 60px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
-.name{
-	width: 630px;
+.name {
+  min-width: 630px;
+  max-width: 630px;
 }
 
-.leg{
-	color: #001889;
-	width: 0px;
-	font-weight: bolder;
+.set {
+  background-color: #d9d9d9;
+  color: #001889;
+  font-weight: bolder;
 }
 
-.score{
-	width: 200px;
-	text-align: right;
+.leg {
+  background-color: #d9d9d9;
+  color: #001889;
+  font-weight: bolder;
 }
 
-.activ{
-	 background: url(./common/img/fleche.svg) no-repeat center center;
-	 background-size: 80% 80%;
+.score {
+  width: 200px;
+  text-align: right;
 }
 
-.inactiv{
-	background: none;
-	background-size: 80% 80%;
+.activ {
+  background: url(./common/img/fleche.svg) no-repeat center center;
+  background-size: 80% 80%;
 }
 
-
-.starterLeg{
-	background: url(./common/img/point.svg) no-repeat center center;
-	background-size: 25% 25%;
+.inactiv {
+  background: none;
+  background-size: 80% 80%;
 }
 
-
-#stadeCompetition{
-	color: #d9d9d9;
-	position: absolute;
-	font-size: 40px;
-	top: 10px;
-	left: 10px;
-	font-family: "RobotoBlack";
+.starterLeg {
+  background: url(./common/img/point.svg) no-repeat center center;
+  background-size: 25% 25%;
 }
 
-#nbrMancheGagnante{
-	color: #d9d9d9;
-	position: absolute;
-	font-size: 40px;
-	bottom: 10px;
-	left: 10px;
-	font-family: "RobotoBlack";
+#stadeCompetition {
+  color: #d9d9d9;
+  font-size: 40px;
+  top: 10px;
+  left: 10px;
+  font-family: "RobotoBlack";
 }
 
-@font-face {
-	font-family: "Roboto";
-	src: url('./common/Roboto-Light.ttf');
+#nbrMancheGagnante {
+  min-width: 630px;
+  width: 630px;
+  max-width: 630px;
 }
 
 @font-face {
-	font-family: "RobotoBlack";
-	src: url('./common/Roboto-Regular.ttf');
+  font-family: "Roboto";
+  src: url("./common/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: "RobotoBlack";
+  src: url("./common/Roboto-Regular.ttf");
 }

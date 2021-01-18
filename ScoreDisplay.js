@@ -60,6 +60,9 @@ function onRespReadXML(result){
 	document.getElementById("player1Name").innerHTML = game.arrayTeams[0].displayName;
 	document.getElementById("player2Name").innerHTML = game.arrayTeams[1].displayName;
 
+	document.getElementById("player1Set").innerHTML = game.arrayTeams[0].set;
+	document.getElementById("player2Set").innerHTML = game.arrayTeams[1].set;
+
 	document.getElementById("player1Leg").innerHTML = game.arrayTeams[0].leg;
 	document.getElementById("player2Leg").innerHTML = game.arrayTeams[1].leg;
 
